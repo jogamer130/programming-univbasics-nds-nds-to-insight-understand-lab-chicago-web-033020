@@ -9,7 +9,7 @@ end
 
 def print_first_directors_movie_titles
   x = directors_database
-  db = db[0][:movies].each{|i|
+  x = x[0][:movies].each{|i|
     puts i[:title]
   }
 end
