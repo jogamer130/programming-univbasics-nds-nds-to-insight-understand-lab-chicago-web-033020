@@ -10,6 +10,6 @@ end
 def print_first_directors_movie_titles
   x = directors_database
   x = x[0][:movies].each{|a|
-    puts a[:title]
+    a[:title]
   }
 end
